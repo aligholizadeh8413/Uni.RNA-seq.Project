@@ -3,7 +3,6 @@
 A university course project for **Topics in Computer Science**, implementing a single-end human RNA-seq workflow from raw reads to a gene count table.
 
 **Team:** Ali Mohammad Gholizadeh · Hesam Javadi  
-**Suggested repository name:** `university-cs-topics-rnaseq-project`
 
 [Presentation (Persian)](Presentation.pdf) · [Oral defense guide (Persian)](docs/Defense_Guide.md) · [Analysis summary](results/analysis_summary.json)
 
@@ -162,11 +161,3 @@ GitHub Actions runs syntax and configuration checks only. It does not contain th
 - Reverse-strandedness was prescribed, not independently established.
 - FastQC warnings need interpretation; they do not automatically invalidate a dataset.
 - No additional minimum-length or adapter-removal filter was introduced beyond the instructor's parameters.
-
-## Git and publication
-
-The recommended repository name is `university-cs-topics-rnaseq-project`. Renaming the repository or its root directory does not require changing the internal `data/`, `reference/`, or `reports/` paths.
-
-`.gitignore` excludes FASTQ, SAM/BAM, reference indices, annotations, JAR files, and local reports. Curated results and the presentation remain versioned. Git LFS is not required for this package. Ignore rules do not remove files that were already tracked.
-
-See [the GitHub upload guide](docs/GITHUB.md) for publication steps. No open-source license has been selected for this project; third-party tools retain their own licenses.
