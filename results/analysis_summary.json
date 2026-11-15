@@ -1,0 +1,75 @@
+{
+  "genes": 61552,
+  "nonzero_genes": 17875,
+  "zero_genes": 43677,
+  "sum_counts": 913764,
+  "assignment": {
+    "Assigned": 913764,
+    "Unassigned_Unmapped": 86563,
+    "Unassigned_Read_Type": 0,
+    "Unassigned_Singleton": 0,
+    "Unassigned_MappingQuality": 0,
+    "Unassigned_Chimera": 0,
+    "Unassigned_FragmentLength": 0,
+    "Unassigned_Duplicate": 0,
+    "Unassigned_MultiMapping": 261300,
+    "Unassigned_Secondary": 0,
+    "Unassigned_NonSplit": 0,
+    "Unassigned_NoFeatures": 127394,
+    "Unassigned_Overlapping_Length": 0,
+    "Unassigned_Ambiguity": 41222
+  },
+  "alignment_records": 1430243,
+  "input_reads": 1250000,
+  "trimmed_reads": 1249800,
+  "mapped_reads": 1163237,
+  "unique_mapping_reads": 1082380,
+  "multimapping_reads": 80857,
+  "unmapped_reads": 86563,
+  "secondary_records": 180443,
+  "assigned_pct_records": 63.888723804276616,
+  "assigned_pct_trimmed_reads": 73.11281805088814,
+  "top10": [
+    {
+      "gene_id": "ENSG00000198804",
+      "count": 7631
+    },
+    {
+      "gene_id": "ENSG00000198886",
+      "count": 4560
+    },
+    {
+      "gene_id": "ENSG00000198938",
+      "count": 4233
+    },
+    {
+      "gene_id": "ENSG00000156508",
+      "count": 3980
+    },
+    {
+      "gene_id": "ENSG00000210082",
+      "count": 3802
+    },
+    {
+      "gene_id": "ENSG00000133124",
+      "count": 3630
+    },
+    {
+      "gene_id": "ENSG00000167658",
+      "count": 2942
+    },
+    {
+      "gene_id": "ENSG00000111640",
+      "count": 2604
+    },
+    {
+      "gene_id": "ENSG00000074800",
+      "count": 2373
+    },
+    {
+      "gene_id": "ENSG00000080824",
+      "count": 2290
+    }
+  ],
+  "strandness": "Reverse-stranded specified by assignment; not independently established by a strandness assay."
+}

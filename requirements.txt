@@ -1,0 +1,3 @@
+# RNA-seq orchestration uses only the Python 3 standard library.
+# No pip packages are needed. Bioinformatics tools are installed by Dockerfile.
+# Do not try to install HISAT2, samtools or featureCounts using pip.

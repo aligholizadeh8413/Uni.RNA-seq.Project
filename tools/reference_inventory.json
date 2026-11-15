@@ -1,0 +1,50 @@
+{
+  "archive_members": [
+    {
+      "path": "grch38",
+      "bytes": 0
+    },
+    {
+      "path": "grch38/genome.5.ht2",
+      "bytes": 1295322177
+    },
+    {
+      "path": "grch38/genome.2.ht2",
+      "bytes": 736462272
+    },
+    {
+      "path": "grch38/make_grch38.sh",
+      "bytes": 1504
+    },
+    {
+      "path": "grch38/genome.3.ht2",
+      "bytes": 11294
+    },
+    {
+      "path": "grch38/genome.4.ht2",
+      "bytes": 736462267
+    },
+    {
+      "path": "grch38/genome.7.ht2",
+      "bytes": 8
+    },
+    {
+      "path": "grch38/genome.1.ht2",
+      "bytes": 986172031
+    },
+    {
+      "path": "grch38/genome.6.ht2",
+      "bytes": 749943562
+    },
+    {
+      "path": "grch38/genome.8.ht2",
+      "bytes": 8
+    }
+  ],
+  "archive_expanded_bytes": 4504375123,
+  "gtf_expanded_bytes": 1378458175,
+  "total_expanded_GiB": 5.478815453127027,
+  "free_space_seen_in_container_GiB": 17.54853057861328,
+  "gzip_integrity": "passed",
+  "extracted": false
+}

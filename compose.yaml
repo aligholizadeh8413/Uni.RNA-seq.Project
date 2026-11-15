@@ -1,0 +1,13 @@
+services:
+  bio:
+    image: rnaseq-miniproject:bookworm-arm64-v1
+    platform: linux/arm64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /work
+    volumes:
+      - .:/work
+      - ./data/demo.fastq:/work/data/demo.fastq:ro
+    environment:
+      LC_ALL: C.UTF-8
